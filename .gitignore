@@ -1,0 +1,4 @@
+/extra/
+/node_modules/
+secrets.json
+.vscode/
