@@ -15,7 +15,6 @@ If you have a way to fix the webpack error go for it and please do a pull reques
 Any feedback is appreciated.
 
 ## Setup
--------------------
 first open the directory and run:
 
 ```
@@ -36,7 +35,6 @@ node "./sendnodemail.js"
 ```
 
 ## Example
--------------------
 A small example of how to send the post request using Fetch
 ```js
 var myHeaders = new Headers();
