@@ -2,7 +2,7 @@
     <img src="https://paouzswmtqahihhugxtg.supabase.co/storage/v1/object/public/symfony/ADMIN69/15-12-2022%2011:48:00.png" width="150px" alt="just a skully">
 </p>
 
-# Symfony-Dall-E-API
+# Symfony-Dall-E-Nodemailer-API
 
 This is the API required for the change Password function in [Symfony-Dall-E](https://github.com/arfizato/Symfony-Dall-E) to function.
 
