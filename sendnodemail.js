@@ -49,7 +49,7 @@ function sendMail(req,res,uuid){
         to:email,
         subject:`${ uuid.split("-")[1]}: Forgot Password?`,
         html:`            
-            <body style="margin: 0;padding:2rem; background-color: #BFDBFE; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif   ;">
+            <body style="margin: 0;padding:2rem; background-color: #BFDBFE; background-image:linear-gradient(to right top, rgb(191, 219, 254), rgb(96,165,250)); font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif   ;">
                 <div class="container" style="margin: 2rem auto; width: fit-content; background-color: #fff; border-radius: 0.5rem; padding: 1.5rem .5rem;width: 38rem;" >
                     <a href="arfizato.tn" style="width: 100%; display: flex; align-items: center;">
                         <img src="https://paouzswmtqahihhugxtg.supabase.co/storage/v1/object/public/symfony/ADMIN69/15-12-2022%2011:48:00.png" alt="hey" style="border-radius: 0.25rem; width: 13rem; margin:auto;"/>
