@@ -26,7 +26,9 @@ Then, You'll need to create a `secrets.json` file and place it in the root direc
     "senderEmail":NODEMAILER_EMAIL,
     "senderPassword":NODEMAILER_PASSWORD,
     "emailPort": PORT,
-    "emailHost": "smtp.gmail.com"
+    "emailHost": "smtp.gmail.com",
+    "supabaseUrl": "url",
+    "supabaseKey": "KEY"
 }
 ```
 then just run and keep it running while you use the webapp
