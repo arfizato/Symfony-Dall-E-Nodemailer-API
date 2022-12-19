@@ -23,8 +23,7 @@ app.post("/sendEmail", (req,res) => {
 });
 
 async function addToken(req,uuid){    
-    const supabaseUrl = 'https://paouzswmtqahihhugxtg.supabase.co';
-    const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBhb3V6c3dtdHFhaGloaHVneHRnIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY2OTYzNzk5NiwiZXhwIjoxOTg1MjEzOTk2fQ.Quym-dQcWBtCYeAjtV7kAkY79w3pYGDeCVLGJ4MbYw0";
+    const {supabaseUrl,supabaseKey} =  require("./secrets.json")
     const supabase = createClient(supabaseUrl, supabaseKey);
 
     const {email}= req.body;
